@@ -1,5 +1,4 @@
 <br clear="both">
-###
 
 <img src="https://raw.githubusercontent.com/HisyamRMDN/HisyamRMDN/output/snake.svg" alt="Snake animation" />
 
