@@ -31,5 +31,7 @@ jobs:
         with:
           target_branch: output
           build_dir: .
+          keep_history: false
+          force_orphan: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
