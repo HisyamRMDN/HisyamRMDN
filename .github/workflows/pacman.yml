@@ -19,22 +19,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate pacman-contribution-graph.svg
+      # This is the new, combined step
+      - name: Generate and Deploy pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-
-      # This is the new, crucial step
-      - name: Create a 'dist' directory and move the SVG file
-        run: |
-          mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
-
-      - name: Deploy pacman svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          # Now, tell the action to deploy only the 'dist' directory
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          push_branch: output
+          github_token: ${{ secrets.GITHUB_TOKEN }}
