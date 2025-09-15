@@ -1,11 +1,9 @@
 name: Generate pacman animation
 
 on:
-  schedule: # execute every 12 hours
+  schedule: # jalan tiap 12 jam
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -18,27 +16,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # Checkout repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
+      # Generate pacman-contribution-graph.svg
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 👉 Step tambahan untuk pastikan branch output ada
-      - name: Create output branch if not exists
-        run: |
-          git fetch origin
-          if ! git show-ref --quiet refs/remotes/origin/output; then
-            git checkout --orphan output
-            git reset --hard
-            git commit --allow-empty -m "Initialize output branch"
-            git push origin output
-          fi
-          git checkout main
-
-      - name: Push pacman-contribution-graph.svg to the output branch
+      # Deploy to branch "output"
+      - name: Deploy pacman svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
