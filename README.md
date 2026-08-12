@@ -9,10 +9,6 @@
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=HisyamRMDN&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rivalzy&theme=algolia&hide_border=true&background=0d1117" alt="GitHub Streak"/>
-</div>
-
 ###
 
 ###
