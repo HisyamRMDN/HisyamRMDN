@@ -5,8 +5,8 @@
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Rivalzy&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Rivalzy&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=HisyamRMDN&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=HisyamRMDN&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117"/>
 </div>
 
 <div align="center">
