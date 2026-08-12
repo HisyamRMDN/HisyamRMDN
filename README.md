@@ -4,6 +4,7 @@
 </a>
 </div>
 
+## 📊 My Github Stats:
 <div align="center">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=HisyamRMDN&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=HisyamRMDN&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117"/>
@@ -12,7 +13,7 @@
 ###
 
 ###
-
+## 🚀 Languages and Tools:
 <div data-importer="techs" align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -31,7 +32,7 @@
 </div>
 
 ###
-
+## 🙋‍♂️My Socials:
 <div data-importer="socials" align="center">
   <a href="https://github.com/HisyamRMDN" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo" />
