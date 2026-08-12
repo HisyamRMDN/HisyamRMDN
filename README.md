@@ -1,4 +1,6 @@
-## Hi there 👋
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=open+sans&weight=800&size=27&duration=2500&pause=1000&color=C8310D&center=true&width=650&height=100&lines=Hey+there%2C+I'm+Hisyam!+%F0%9F%91%8B;%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Full-Stack+Developer+%26+Web+Developer;Crafting+clean+web+apps+%26+cloud+solutions." alt="Typing SVG" />
+</a>
 
 <!--
 **HisyamRMDN/HisyamRMDN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
