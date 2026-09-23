@@ -48,7 +48,7 @@
     <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo" />
   </a>
   
-  <a href="https://discord.gg/link_server_atau_profile_kamu" target="_blank" rel="noopener noreferrer">
+  <a href="[https://discord.gg/link_server_atau_profile_kamu](https://discord.com/)" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
   </a>
   
